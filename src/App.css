@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.calc-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.result {
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.result p {
+  font-size: 40px;
+}
+
+.buttons {
+  display: block;
+  background-color: #bbb;
+
+}
+
+.buttons button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(243, 243, 104);
+  border: none;
+}
+
+.btn-blue button {
+  background-color: blue;
+}
+
+.buttons button:active {
+  background-color: blue;
+}
